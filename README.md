@@ -15,7 +15,7 @@ See http://fzerorubigd.github.io/persian-fonts-linux
 You can run the script directly from your shell (it's wise to check the script before running the command) :
 
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/fzerorubigd/persian-fonts-linux/master/farsifonts.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/aligholipour1/persian-fonts-linux/master/farsifonts.sh)"
 ```
 
 ## Available fonts
