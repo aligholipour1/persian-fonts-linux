@@ -38,14 +38,14 @@ function download() {
 }
 
 function installFont(){
-  gksu "mkdir -p /usr/share/fonts/truetype/$1"
-  gksu "unzip -o -d /usr/share/fonts/truetype/$1 ./$2"
+  pkexec "mkdir -p /usr/share/fonts/truetype/$1"
+  pkexec "unzip -o -d /usr/share/fonts/truetype/$1 ./$2"
 }
 
 #
 detect wget
 detect zenity
-detect gksu
+detect pkexec
 
 # Address of toc file, I keep this file updated.
 readonly URL="http://fzero.rubi.gd/persian-fonts-linux/list"
