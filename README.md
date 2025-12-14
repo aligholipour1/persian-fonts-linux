@@ -3,13 +3,6 @@ Persian fonts for linux
 
 This script downloads and installs Persian fonts on any linux distro.
 
-There are two versions available :
-
-   - farsifont.sh : simple CLI version
-   - zfarsifont.sh : GUI version (requires zenity)
-
-See http://fzerorubigd.github.io/persian-fonts-linux
-
 ## Installation 
 
 You can run the script directly from your shell (it's wise to check the script before running the command) :
